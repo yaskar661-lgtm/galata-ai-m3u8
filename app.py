@@ -5,8 +5,8 @@ import re
 
 app = Flask(__name__)
 
-# 10 dakika cache süresi (saniye cinsinden)
-CACHE_DURATION = 10 * 60
+# 15 saniye cache süresi (saniye cinsinden)
+CACHE_DURATION = 15
 stream_cache = {}
 
 # Doğrudan sağladığın default JSON verisi
